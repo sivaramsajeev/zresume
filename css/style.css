@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url("../images/matrix.jpeg") ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-name {
+    top:0 ; 
+    left:0 ;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    border-radius: 45% 45% 45% 45% / 45%;
+}
+
+#main-name {
+    position: relative;
+    line-height: 300px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    text-shadow: 40px 40px 40px black;
+    color: white;
+    text-align: center;
+}
+
+
+.content-wrapper {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 30px;
+	text-shadow: 20px 20px 20px black;
+    backdrop-filter: blur(5px);
+    border-radius: 90% 90% 90% 90% / 90%;
+}
+
+.content-wrapper div {
+    margin-bottom: 30px; 
+}
+
+
+.content {
+    line-height: 500px;
+    border-radius: 90% 90% 90% 90% / 90%;
+    height: 500px;
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+}
+
+.terminal {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+
+
